@@ -1,4 +1,4 @@
-module github.com/khamonsol/fission-couchbase
+module github.com/SoleaEnergy/fission-couchbase
 
 go 1.18
 
