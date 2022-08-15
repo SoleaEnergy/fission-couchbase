@@ -115,7 +115,7 @@ func FetchStatus(jobType string) []JobStatus {
 	where := " where job_type = "
 	orderByLimit:= " ORDER BY timestamp desc LIMIT 50 "
 
-	query := selectFrom + where + "' " + jobType + " ' " + orderByLimit
+	query := selectFrom + where + "'" + jobType + "' " + orderByLimit
 	results, err := c.Query(query, &gocb.QueryOptions{})
 	if err != nil {
 		panic(err)
