@@ -3,7 +3,7 @@ module github.com/SoleaEnergy/fission-couchbase
 go 1.18
 
 require (
-	github.com/SoleaEnergy/fission-env-resolver v0.1.3
+	github.com/SoleaEnergy/fission-env-resolver v0.1.4
 	github.com/couchbase/gocb/v2 v2.5.2
 	github.com/golang-module/carbon v1.6.9
 )
